@@ -1,9 +1,9 @@
 # Simple_Pathtracer
 A simple pathtracer that I did in my free time
 
-Requires DirectX9.
+Requires DirectX9(I highly recommend running it in release mode due to speed).
 
-I haven't included the other models(lucy, the dragon et.c) since they're relatively big. 
+I haven't included the other models(lucy, the dragon etc.) since they're relatively big. 
 
 They can be found here: https://graphics.stanford.edu/data/3Dscanrep/
 
