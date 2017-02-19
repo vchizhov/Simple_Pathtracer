@@ -1,0 +1,4 @@
+white 1 1 1
+mwhite Lambertian white
+bunnyData "bun_zipper_res.ply" 250 -50 190 0 -2.3561925 0 2000 2000 2000
+OctreeMesh bunnyData mwhite

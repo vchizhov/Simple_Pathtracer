@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BasicMath">
+      <UniqueIdentifier>{3be745e9-dd10-4100-a875-665ac163d2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Raytr_Core">
+      <UniqueIdentifier>{f2aaa203-bad9-4cb4-b482-92f58ef8f9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Raytr_Core\objects">
+      <UniqueIdentifier>{ca051e44-accb-4968-977e-58a650cf6341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Libraries">
+      <UniqueIdentifier>{4076e9d9-72b8-474a-bd90-b3c260f9200b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Raytr_Core\bounding_volumes">
+      <UniqueIdentifier>{3f416508-7b27-42fd-b499-8983699bb183}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rply.c">
+      <Filter>External Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="tigr.c">
+      <Filter>External Libraries</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="threads_distribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mat2.h">
+      <Filter>Header Files\BasicMath</Filter>
+    </ClInclude>
+    <ClInclude Include="mat3.h">
+      <Filter>Header Files\BasicMath</Filter>
+    </ClInclude>
+    <ClInclude Include="mat4.h">
+      <Filter>Header Files\BasicMath</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Header Files\BasicMath</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Header Files\BasicMath</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>Header Files\BasicMath</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\BasicMath</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\Raytr_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="hemisphere_pdf.h">
+      <Filter>Header Files\Raytr_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files\Raytr_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>Header Files\Raytr_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files\Raytr_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files\Raytr_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="rds.h">
+      <Filter>Header Files\BasicMath</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="parallelogram.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="intensity_array.h">
+      <Filter>Header Files\Raytr_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="filter.h">
+      <Filter>Header Files\Raytr_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle_mesh.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle_cuboid.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="octree.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="tigr.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="rplyfile.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="rply.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle_mesh_data.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>Header Files\Raytr_Core\bounding_volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="bounding_volume.h">
+      <Filter>Header Files\Raytr_Core\bounding_volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="PlyLoader.h">
+      <Filter>Header Files\Raytr_Core\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="high_precision_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Akenine_Moller_triangle_aabb_intersection.h">
+      <Filter>Header Files\BasicMath</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
